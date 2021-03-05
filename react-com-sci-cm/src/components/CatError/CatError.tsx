@@ -1,7 +1,7 @@
 import React from 'react'
 import catOps from '../../asset/image/cat-ops.gif'
+import ShowImage from '../ShowImage/ShowImage'
 import TitleHeadline from '../TitleHeadline/TitleHeadline'
-import './cat-error.css'
 
 function CatError() {
     return (
@@ -9,7 +9,7 @@ function CatError() {
             <TitleHeadline
                 title={'Ops! Something went wrong'}
             />
-            <img src={catOps} alt="the cat found error" className="img-cat" />
+            <ShowImage src={catOps} alt="the cat found error" />
         </div>
     )
 }
